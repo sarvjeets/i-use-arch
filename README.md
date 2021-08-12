@@ -35,7 +35,7 @@ add new ones without notice.
 [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 [this](https://github.com/sarvjeets/i-use-arch) repository.
 2. On your Arch computer:
-```shell
+~~~
 # Make sure you have neofetch and python3 installed. Otherwise run:
 # pacman -S python neofetch
 
@@ -43,7 +43,7 @@ $ git clone https://github.com/username/i-use-arch.git
 $ cd i-use-arch
 $ mkdir folder_of_your_choice  # Skip if you are updating an existing page
 $ python3 ./scripts/plain-ascii.py > folder_of_your_choice/index.html
-```
+~~~
 3. Create a
 [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
  for your changes.
