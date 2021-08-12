@@ -33,7 +33,7 @@ add new ones without notice.
 
 1. Start by
 [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-this repository.
+[this](https://github.com/sarvjeets/i-use-arch) repository.
 2. On your Arch computer:
 ```bash
 # Make sure you have neofetch and python3 installed. Otherwise run:
