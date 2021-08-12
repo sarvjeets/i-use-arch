@@ -16,7 +16,7 @@ tell the world!
 ## Rules
 
 Rules are simple:
-1. If an existing name is not already claimed, you can grab it.
+1. If a folder is not claimed, you can grab it.
 2. You can always modify a folder that you have previously edited, as long
 as your are using the same github username. Try to update your page once
 every 3 months to keep it active (see below).
@@ -27,9 +27,24 @@ allowed. My ([sarvjeets](https://github.com/sarvjeets)) decision on what
 is neofetch and what is not is final.
 5. I ([sarvjeets](https://github.com/sarvjeets)) can modify these rules or
 add new ones without notice.
-
-Have fun!
+6. Have fun and be nice!
 
 ## How to add your own page
 
-TODO: Add automated script to help create a neofetch-like html page.
+1. Start by
+[forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+this repository.
+2. On your Arch computer:
+```bash
+# Make sure you have neofetch and python3 installed. Otherwise run:
+# pacman -S python neofetch
+
+$ git clone https://github.com/<username>/i-use-arch.git
+$ cd i-use-arch
+$ mkdir folder_of_your_choice  # Skip if you are updating an existing page
+$ python3 ./scripts/plain-ascii.py > folder_of_your_choice/index.html
+```
+3. Create a
+[pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+ for your changes.
+
