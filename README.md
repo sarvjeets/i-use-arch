@@ -39,7 +39,7 @@ add new ones without notice.
 # Make sure you have neofetch and python3 installed. Otherwise run:
 # pacman -S python neofetch
 
-$ git clone https://github.com/<username>/i-use-arch.git
+$ git clone https://github.com/username/i-use-arch.git
 $ cd i-use-arch
 $ mkdir folder_of_your_choice  # Skip if you are updating an existing page
 $ python3 ./scripts/plain-ascii.py > folder_of_your_choice/index.html
