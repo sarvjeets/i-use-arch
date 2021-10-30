@@ -1,6 +1,10 @@
 # I use Arch, FYI
 
-## Introduction
+Get your own webpage on [i-use-arch.fyi](https://i-use-arch.fyi) similar
+to [this page](https://i-use-arch.fyi/sarvjeet/).
+
+## Background
+
 What is common in new parents and someone who installs
 [Arch](https://archlinux.org/)?
 A lot of things actually:
@@ -15,7 +19,6 @@ tell the world!
 
 ## Rules
 
-Rules are simple:
 1. If a folder is not claimed, you can grab it.
 2. You can always modify a folder that you have previously edited, as long
 as your are using the same github username. Try to update your page once
