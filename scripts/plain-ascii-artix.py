@@ -20,7 +20,7 @@ def span_info(line):
     return f'{span(parts[0])}:{parts[2]}'
 
 
-print("""<!-- Created by plain-ascii.py -->
+print("""<!-- Created by plain-ascii-artix.py -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
